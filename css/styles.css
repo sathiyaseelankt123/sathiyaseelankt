@@ -466,8 +466,20 @@ img {
     width: 85%;
 }
 
+.skill_angular {
+    width: 85%;
+}
+
 .skill_php {
     width: 85%;
+}
+
+.skill_java {
+    width: 55%;
+}
+
+.skill_mysql {
+    width: 65%;
 }
 
 .skill_ui {
