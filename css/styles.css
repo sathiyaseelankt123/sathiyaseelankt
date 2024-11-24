@@ -253,6 +253,11 @@ img {
         transition: 0.5s;
 
     }
+
+    .certification_img {
+        width: 100% !important;
+
+    }
 }
 
 .nav_items {
@@ -482,6 +487,14 @@ img {
     width: 65%;
 }
 
+.skill_cloud {
+    width: 50%;
+}
+
+.skill_docker {
+    width: 50%;
+}
+
 .skill_ui {
     width: 85%;
 }
@@ -511,6 +524,26 @@ img {
 }
 
 /* Contact */
+.contact {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.contact_img {
+    width: 50%;
+    float: left;
+}
+
+.contact {
+    text-align: center;
+}
+
+.contact_container {
+    row-gap: 2rem
+}
+
+
+
 .control_input {
     width: 100%;
     font-size: var(--normal-font-size);
@@ -611,6 +644,39 @@ img {
     margin-left: 20px;
     display: inline-block;
 }
+
+
+
+/* Certificaitons */
+.certifications_img {
+    width: 50%;
+    float: left;
+}
+
+.certifications {
+    text-align: center;
+}
+
+.certifications_container {
+    row-gap: 2rem
+}
+
+.certifications_img {
+    box-shadow: 0 4px 25px rgba(14, 36, 29, 0.15);
+    border-radius: 0.5rem;
+    overflow: hidden;
+}
+
+.certifications_img img {
+    transition: 1s;
+    cursor: pointer;
+}
+
+.certifications_img img:hover {
+    transform: scale(1.1);
+}
+
+
 
 
 /* footer */
@@ -720,9 +786,7 @@ footer {
     }
 
     .work_container {
-        grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: repeat(2, 1fr);
-        column-gap: 2rem;
+        text-align: center;
     }
 
     .contat_form {
