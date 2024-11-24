@@ -526,7 +526,7 @@ img {
 /* Contact */
 .contact {
     text-align: center;
-    margin-top: 50px;
+
 }
 
 .contact_img {
@@ -648,17 +648,20 @@ img {
 
 
 /* Certificaitons */
+.certifications {
+    text-align: center;
+    height: 0 auto;
+    margin-bottom: 30px;
+}
+
 .certifications_img {
     width: 50%;
     float: left;
 }
 
-.certifications {
-    text-align: center;
-}
-
 .certifications_container {
-    row-gap: 2rem
+    margin: 0 auto;
+    
 }
 
 .certifications_img {
