@@ -26,6 +26,8 @@ function linkAction() {
 navLink.forEach(n => n.addEventListener('click', linkAction))
 
 var enteredDate = "2012/12/10";
+const period = new Date(new Date().getTime() - new Date(enteredDate).getTime())
 var years = new Date(new Date() - new Date(enteredDate)).getFullYear() - 1970;
-document.getElementById('experienceCount').innerText = years;
-document.getElementById('experienceCount1').innerText = years;
+const months = period.getMonth();
+document.getElementById('experienceCount').innerText = years + " Years & " + months + " Months";
+document.getElementById('experienceCount1').innerText = years + " Years & " + months + " Months";
